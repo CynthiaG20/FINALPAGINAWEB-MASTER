@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #fcfcfc; /* fallback for old browsers */
+  
+ /* Chrome 10-25, Safari 5.1-6 */
+ 
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.enunciado {
+  text-align: center;
+  padding: 40px;
+}
+
+/*navegacion */
+nav ul {
+  /*color 100%pantalla  */
+  background-color: rgba(32, 33, 33, 0.923);
+  /* box-sadow hace sombra; */
+  box-shadow: 2px 10px 20px rgba(32, 33, 33, 0.923);
+  width: 100%;
+  list-style-type: none;
+  text-align: center;
+}
+nav li {
+  /*pone (li)una al lado de otra */
+  display: inline-flex;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  /*(width)separacion de (menu) */
+  width: 50px;
+}
+/*(nav li hover)cuando pasa el cursor sobre menu cambia color */
+nav li:hover {
+  background-color: black;
+}
+img {
+  /*le doy tamaño a la imagen */
+  width: 190px;
+  height: 190px;
+  /*borde redondo */
+  /* border-radius: 50%; */
+}
+
+.h1 {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  width: 300px; /* Ancho de la caja */
+  height: 200px; /* Alto de la caja */
+  border: 1px solid black; /* Borde para la caja */
+  padding: 20px; /* Espaciado interno de la caja */
+}
+  
+.secciones {
+  /*aca centro y separo los elementos */
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+.menu-secundario {
+  /* */
+  width: 100%;
+  margin-top: 100px;
+}
+.menu-secundario {
+  /* */
+  display: block;
+  text-align: center;
+  color: black;
+  margin-bottom: 20px;
+}
+h5 {
+  padding: 50px;
+}
+.datos {
+  padding: 30px;
+}
+footer a i {
+  padding: 30px;
+  margin: 30px;
+  min-height: 20px;
+  width: 20px;
+  background-color: rgb(85, 233, 85);
+  /* background-color: rgb(112, 109, 109); */
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 30%;
+  color: red;
+  transition: all 10s ease;
+}
